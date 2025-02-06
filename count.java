@@ -4,35 +4,7 @@ import java.util.Scanner;
 public class count {
 
     public static void main(String[] args) {
-    // private int count;
 
-    // public CountPeople() {
-    //     count = 0;
-    // }
-
-    // public void personEnters() {
-    //     count++;
-    //     System.out.println("Person entered. Current count: " + count);
-    // }
-
-    // public int getCount() {
-    //     return count;
-    // }
-
-    // public static void main(String[] args) {
-    //     CountPeople counter = new CountPeople();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     counter.personEnters();
-    //     System.out.println("Total number of people entered: " + counter.getCount());
-    // }
 
 
 
@@ -55,20 +27,20 @@ if (InOrOut) {
     System.out.println("Motion one state");
     MotionSensorOne = ObjectScanner.nextBoolean();
 
-System.out.println("Motion two state");
-MotionSensorTwo = ObjectScanner.nextBoolean();
+// System.out.println("Motion two state");
+// MotionSensorTwo = ObjectScanner.nextBoolean();
     
-if (MotionSensorOne==true) {
+// if (MotionSensorOne==true) {
 
-    if (MotionSensorTwo==true) {
-        if (i <= 0) {
-            i = 0;
-        }else{
-            i--;
-        }
+//     if (MotionSensorTwo==true) {
+//         if (i <= 0) {
+//             i = 0;
+//         }else{
+//             i--;
+//         }
         
-    }
-}
+//     }
+// }
 
 
 
@@ -80,20 +52,20 @@ if (MotionSensorOne==true) {
     System.out.println("Motion two state");
     MotionSensorTwo = ObjectScanner.nextBoolean();
 
-System.out.println("Motion one state");
-MotionSensorOne = ObjectScanner.nextBoolean();
+// System.out.println("Motion one state");
+// MotionSensorOne = ObjectScanner.nextBoolean();
     
-if (MotionSensorTwo==true) {
+// if (MotionSensorTwo==true) {
 
-    if (MotionSensorOne==true) {
-        if (i < 0) {
-            i = 0;
-        }else{
-            i++;
-        }
+//     if (MotionSensorOne==true) {
+//         if (i < 0) {
+//             i = 0;
+//         }else{
+//             i++;
+//         }
        
-    }
-}
+//     }
+// }
 
     
 }
@@ -110,6 +82,11 @@ if (i == 0) {
 } while (true);
 
 
+
+
+
 }
+
+
 
 }
