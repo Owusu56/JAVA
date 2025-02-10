@@ -24,9 +24,14 @@ public class Birds {
         this.weight = weight;
     }
 
-    public Birds(double price) {
-        this.price = price;
+    
+
+    public Birds() {
     }
+
+
+
+
 
     public String getName() {
         return Name;
@@ -36,6 +41,8 @@ public class Birds {
         this.Name = Name;
     }
 
+
+
     public String getType() {
         return Type;
     }
@@ -43,6 +50,22 @@ public class Birds {
     public void setType(String Type) {
         this.Type = Type;
     }
+
+
+
+
+
+    public double getprice() {
+        return price;
+    }
+
+    public void setprice(double price) {
+        this.price = price;
+    }
+
+
+
+
 
     public int getImage() {
         return image;
@@ -52,6 +75,10 @@ public class Birds {
         this.image = image;
     }
 
+
+
+
+
     public double getWeight() {
         return weight;
     }
@@ -59,6 +86,10 @@ public class Birds {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+
+
+
 
     public String getColour() {
         return colour;
@@ -68,6 +99,10 @@ public class Birds {
         this.colour = colour;
     }
 
+
+
+
+
     public int getAge() {
         return age;
     }
@@ -76,6 +111,11 @@ public class Birds {
         this.age = age;
     }
 
+
+
+
+
+
     public int getLifespan() {
         return lifespan;
     }
@@ -83,6 +123,11 @@ public class Birds {
     public void setLifespan(int lifespan) {
         this.lifespan = lifespan;
     }
+
+
+
+
+
 
     public String getDescription() {
         return description;
