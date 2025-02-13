@@ -1,6 +1,6 @@
 package MyClassList;
 
-public class Animals {
+public class Animals extends Classes {
 
     
     

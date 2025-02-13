@@ -1,6 +1,8 @@
+
+
 package MyClassList;
 
-public class Birds {
+public class Birds extends Animals {
 
     private String Name;
     private String Type;
@@ -27,8 +29,14 @@ public class Birds {
     
 
     public Birds() {
+
     }
 
+    public void fly() {
+
+        System.out.println("flying birds");
+
+    }
 
 
 
@@ -66,7 +74,7 @@ public class Birds {
 
 
 
-
+                           
     public int getImage() {
         return image;
     }

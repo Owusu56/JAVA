@@ -1,6 +1,6 @@
-import MyClassList.Birds;
+import MyClassList.*;
 
-public class Classes {
+public class Classes  {
 
     public static void main(String[] Kay) {
 
